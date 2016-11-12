@@ -1,0 +1,4 @@
+activeHandlers:
+- /reload:false
+- /setgroup:false
+- /getgroup:false

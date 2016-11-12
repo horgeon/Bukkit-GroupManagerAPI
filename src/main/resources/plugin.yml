@@ -1,0 +1,17 @@
+name: GroupManagerAPI
+main: fr.horgeon.groupmanagerapi.Main
+version: 1.0
+depend: [ProdriversAPI,GroupManager]
+
+commands:
+    groupmanagerapi:
+            description: Base command for GroupManagerAPI.
+
+    groupmanagerapi reload:
+        description: Reloads the plugin's configuration.
+        permission: groupmanagerapi.reload
+
+permissions:
+    groupmanagerapi.reload:
+        description: Allows you to reload the configuration.
+        default: op
